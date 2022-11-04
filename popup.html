@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   
+    <link type="text/css" rel="stylesheet" href="style/popup.css"></link>
+  </head>
+
+  <body>
+    <header class="g-header">
+      Cookie Edit
+    </header>
+
+    <content  class="g-content">
+
+      <div class="block-item">
+        <span class="block-item-title">domain:</span>
+        <span id="preDomain"></span>
+      </div>
+  
+      <div class="block-item">
+        <span class="block-item-title">targetDomain:</span>
+        <input id="targetInput" type="text" />
+      </div>
+  
+      <div class="block-item">
+        <span class="block-item-title">excludNames:</span>
+        <input id="excludeInput" type="text" />
+      </div>
+    </content>
+
+  
+
+    <footer class="g-footer">
+      <button id="confirmBtn">changeDomain</button>
+    </footer>
+  </body>
+
+  <script type="text/javascript" src="js/popup.js"></script>
+</html>
