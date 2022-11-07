@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "vicky-cookie-domain",
   "version": "0.0.1",
   "description": "根据 domain 增加 cookie",
@@ -15,7 +15,10 @@
       "matches": ["<all_urls>"]
     }
   ],
-  "browser_action": {
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "action": {
     "default_icon": "images/cookie.png",
     "default_title": "Cookie Edit",
     "default_popup": "popup.html"
@@ -23,13 +26,11 @@
   "permissions": [
     "activeTab",
     "notifications",
-    "webRequestBlocking",
     "storage",
     "contextMenus",
     "tabs",
-    "http://*/*",
-    "https://*/*",
     "cookies"
   ],
+  "host_permissions": ["<all_urls>"],
   "devtools_page": "devtools.html"
 }

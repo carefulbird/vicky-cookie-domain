@@ -17,23 +17,12 @@ class CookieDomain {
       const domain = this.$targetInput.value
       const url = this.url
       const excludes = this.$excludeInput.value.split(',').map((_) => _.trim())
-      chrome.cookies.getAll({ url }, function (cookies) {
-        if (Array.isArray(cookies)) {
-          cookies
-            .filter((_) => excludes.indexOf(_.name) == -1)
-            .forEach(function (cookie) {
-              const name = cookie.name
-              const value = cookie.value
-              const path = cookie.path
-              chrome.cookies.set({
-                path,
-                url,
-                name,
-                value,
-                domain,
-              })
-            })
-        }
+
+      chrome.runtime.sendMessage({
+        domain,
+        url,
+        excludes,
+        type: 'background',
       })
     })
   }

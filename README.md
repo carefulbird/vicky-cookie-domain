@@ -8,4 +8,7 @@
 
 ## 谷歌插件学习
 
-转载链接 - https://github.com/sxei/chrome-plugin-demo
+- 插件学习 https://github.com/sxei/chrome-plugin-demo
+- manifest v3 注意事项 https://developer.chrome.com/docs/extensions/mv3/mv3-migration/
+- 谷歌插件操作 cookie https://lightningminers.gitbook.io/chrome-extension-book/index-2/cookies
+- 谷歌插件 cookie 权限 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Cookies_API

@@ -5,6 +5,4 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
       url: location.href,
     })
   }
-
-  return true
 })
