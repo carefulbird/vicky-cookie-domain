@@ -54,6 +54,7 @@ function getDefaultTargetDomain(domain) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
+  console.log('popup up')
   const cookie = new CookieDomain()
   cookie.init()
   chromeEventListener(cookie)

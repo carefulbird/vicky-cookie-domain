@@ -14,3 +14,4 @@
 - 谷歌插件 cookie 权限 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Cookies_API
 - 线上注册网上商店 https://huajiakeji.com/utilities/2018-05/1406.html
 - 谷歌商店开发者 https://chrome.google.com/webstore/devconsole/register
+- content script 通信 https://developer.mozilla.org/zh-CN/docs/Mozilla/Add-ons/WebExtensions/Content_scripts
