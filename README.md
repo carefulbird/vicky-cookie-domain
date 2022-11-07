@@ -12,3 +12,5 @@
 - manifest v3 注意事项 https://developer.chrome.com/docs/extensions/mv3/mv3-migration/
 - 谷歌插件操作 cookie https://lightningminers.gitbook.io/chrome-extension-book/index-2/cookies
 - 谷歌插件 cookie 权限 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Cookies_API
+- 线上注册网上商店 https://huajiakeji.com/utilities/2018-05/1406.html
+- 谷歌商店开发者 https://chrome.google.com/webstore/devconsole/register
